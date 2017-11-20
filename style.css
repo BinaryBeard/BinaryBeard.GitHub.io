@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans";
+}
+
+header {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+}
+
+.item {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33%;
+}
+
+.inline.middle {
+    font-size: 10vw;
+    font-weight: 600;
+    transform: rotate(45deg);
+    color: green;
+}
+.item_image {
+    width: 100%;
+    border-radius: 10px;
+}
