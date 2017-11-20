@@ -17,6 +17,13 @@ header {
     font-weight: 800;
 }
 
+header.sub {
+    padding-top: 0px;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 600;
+}
+
 .item {
     width: 80%;
     margin: 0 auto;
