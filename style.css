@@ -28,11 +28,13 @@ header {
 }
 
 .inline.price {
-    font-size: 9vw;
+    font-size: 8vw;
+    text-align: center;
     font-weight: 600;
     transform: rotate(45deg);
     color: green;
     margin: 0px;
+    padding: 0px;
 }
 
 .inline.links a {
