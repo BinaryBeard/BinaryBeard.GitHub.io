@@ -1,5 +1,13 @@
 body {
     font-family: "Open Sans";
+    color: white;
+    background-image: url("imgs/tile1.gif");
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 6vw;
+    text-align: center;
 }
 
 header {
@@ -32,7 +40,7 @@ header {
     text-align: center;
     font-weight: 600;
     transform: rotate(45deg);
-    color: green;
+    color: #00ff00;
     margin: 0px;
     padding: 0px;
 }
@@ -40,7 +48,7 @@ header {
 .inline.links a {
     font-size: 2vw;
     text-decoration: none;
-    color: blue;
+    color: yellow;
 }
 
 .inline.links h5 {
