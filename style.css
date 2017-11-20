@@ -13,18 +13,38 @@ header {
     margin: 0 auto;
 }
 
+.item h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 3vw;
+    text-align: center;
+}
+
 .inline {
     display: inline-block;
     vertical-align: middle;
-    width: 33%;
+    width: 32%;
 }
 
-.inline.middle {
+.inline.price {
     font-size: 10vw;
     font-weight: 600;
     transform: rotate(45deg);
     color: green;
+    margin: 0px;
 }
+
+.inline.links a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: blue;
+}
+
+.inline.links h5 {
+    font-size: 2vw;
+    margin: 5px 0px;
+}
+
 .item_image {
     width: 100%;
     border-radius: 10px;
